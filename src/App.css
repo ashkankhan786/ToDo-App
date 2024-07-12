@@ -1,0 +1,101 @@
+* {
+  background-color: rgb(86, 86, 86);
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 80vw;
+  height: 80vh;
+  background-color: antiquewhite;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+.container > h1 {
+  text-align: center;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.create {
+  background-color: antiquewhite;
+  height: 5vh;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.create > input {
+  color: white;
+}
+.itext {
+  color: white;
+  background-color: #80808091;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 900px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.itext:focus {
+  background-color: rgb(97, 97, 97);
+}
+.idate:focus {
+  background-color: rgb(97, 97, 97);
+}
+.idate {
+  margin-right: 20px;
+  background-color: #80808091;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.ibutton {
+  margin-left: 70px;
+  margin-right: 20px;
+  width: 100px;
+  background-color: green;
+  color: white;
+  border: 1px solid rgb(1, 38, 1);
+  border-radius: 4px;
+}
+
+.ibutton:hover {
+  background-color: rgb(1, 169, 1);
+  font-weight: 700;
+  border: 2px solid rgb(1, 38, 1);
+}
+
+.listitem {
+  height: 35px;
+  margin: 10px;
+  background-color: #43928e;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul {
+  background-color: antiquewhite;
+}
+
+.listdelete {
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 60px;
+  font-weight: 500;
+  margin-right: 30px;
+  background-color: rgba(205, 8, 8, 0.756);
+}
+
+.listdelete:hover {
+  border: 2px solid white;
+  background-color: rgba(255, 0, 0, 0.778);
+  font-weight: 600;
+}
